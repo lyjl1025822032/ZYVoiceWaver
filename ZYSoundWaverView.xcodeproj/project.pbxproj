@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202074B91F711F4B003AC3C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074B81F711F4B003AC3C8 /* main.m */; };
+		202074BC1F711F4B003AC3C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074BB1F711F4B003AC3C8 /* AppDelegate.m */; };
+		202074BF1F711F4B003AC3C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074BE1F711F4B003AC3C8 /* ViewController.m */; };
+		202074C21F711F4B003AC3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202074C01F711F4B003AC3C8 /* Main.storyboard */; };
+		202074C51F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 202074C31F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld */; };
+		202074C71F711F4B003AC3C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202074C61F711F4B003AC3C8 /* Assets.xcassets */; };
+		202074CA1F711F4B003AC3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202074C81F711F4B003AC3C8 /* LaunchScreen.storyboard */; };
+		202074D51F711F4B003AC3C8 /* ZYSoundWaverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074D41F711F4B003AC3C8 /* ZYSoundWaverViewTests.m */; };
+		202074E01F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074DF1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202074D11F711F4B003AC3C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202074AC1F711F4B003AC3C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202074B31F711F4B003AC3C8;
+			remoteInfo = ZYSoundWaverView;
+		};
+		202074DC1F711F4B003AC3C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202074AC1F711F4B003AC3C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202074B31F711F4B003AC3C8;
+			remoteInfo = ZYSoundWaverView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202074B41F711F4B003AC3C8 /* ZYSoundWaverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSoundWaverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202074B81F711F4B003AC3C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		202074BA1F711F4B003AC3C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		202074BB1F711F4B003AC3C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		202074BD1F711F4B003AC3C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		202074BE1F711F4B003AC3C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		202074C11F711F4B003AC3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202074C41F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZYSoundWaverView.xcdatamodel; sourceTree = "<group>"; };
+		202074C61F711F4B003AC3C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202074C91F711F4B003AC3C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202074CB1F711F4B003AC3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202074D01F711F4B003AC3C8 /* ZYSoundWaverViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYSoundWaverViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202074D41F711F4B003AC3C8 /* ZYSoundWaverViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSoundWaverViewTests.m; sourceTree = "<group>"; };
+		202074D61F711F4B003AC3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202074DB1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYSoundWaverViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202074DF1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSoundWaverViewUITests.m; sourceTree = "<group>"; };
+		202074E11F711F4B003AC3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202074B11F711F4B003AC3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074CD1F711F4B003AC3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074D81F711F4B003AC3C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202074AB1F711F4B003AC3C8 = {
+			isa = PBXGroup;
+			children = (
+				202074B61F711F4B003AC3C8 /* ZYSoundWaverView */,
+				202074D31F711F4B003AC3C8 /* ZYSoundWaverViewTests */,
+				202074DE1F711F4B003AC3C8 /* ZYSoundWaverViewUITests */,
+				202074B51F711F4B003AC3C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202074B51F711F4B003AC3C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202074B41F711F4B003AC3C8 /* ZYSoundWaverView.app */,
+				202074D01F711F4B003AC3C8 /* ZYSoundWaverViewTests.xctest */,
+				202074DB1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202074B61F711F4B003AC3C8 /* ZYSoundWaverView */ = {
+			isa = PBXGroup;
+			children = (
+				202074BA1F711F4B003AC3C8 /* AppDelegate.h */,
+				202074BB1F711F4B003AC3C8 /* AppDelegate.m */,
+				202074BD1F711F4B003AC3C8 /* ViewController.h */,
+				202074BE1F711F4B003AC3C8 /* ViewController.m */,
+				202074C01F711F4B003AC3C8 /* Main.storyboard */,
+				202074C61F711F4B003AC3C8 /* Assets.xcassets */,
+				202074C81F711F4B003AC3C8 /* LaunchScreen.storyboard */,
+				202074CB1F711F4B003AC3C8 /* Info.plist */,
+				202074C31F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld */,
+				202074B71F711F4B003AC3C8 /* Supporting Files */,
+			);
+			path = ZYSoundWaverView;
+			sourceTree = "<group>";
+		};
+		202074B71F711F4B003AC3C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202074B81F711F4B003AC3C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		202074D31F711F4B003AC3C8 /* ZYSoundWaverViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				202074D41F711F4B003AC3C8 /* ZYSoundWaverViewTests.m */,
+				202074D61F711F4B003AC3C8 /* Info.plist */,
+			);
+			path = ZYSoundWaverViewTests;
+			sourceTree = "<group>";
+		};
+		202074DE1F711F4B003AC3C8 /* ZYSoundWaverViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202074DF1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m */,
+				202074E11F711F4B003AC3C8 /* Info.plist */,
+			);
+			path = ZYSoundWaverViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202074B31F711F4B003AC3C8 /* ZYSoundWaverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202074E41F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverView" */;
+			buildPhases = (
+				202074B01F711F4B003AC3C8 /* Sources */,
+				202074B11F711F4B003AC3C8 /* Frameworks */,
+				202074B21F711F4B003AC3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYSoundWaverView;
+			productName = ZYSoundWaverView;
+			productReference = 202074B41F711F4B003AC3C8 /* ZYSoundWaverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202074CF1F711F4B003AC3C8 /* ZYSoundWaverViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202074E71F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewTests" */;
+			buildPhases = (
+				202074CC1F711F4B003AC3C8 /* Sources */,
+				202074CD1F711F4B003AC3C8 /* Frameworks */,
+				202074CE1F711F4B003AC3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202074D21F711F4B003AC3C8 /* PBXTargetDependency */,
+			);
+			name = ZYSoundWaverViewTests;
+			productName = ZYSoundWaverViewTests;
+			productReference = 202074D01F711F4B003AC3C8 /* ZYSoundWaverViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		202074DA1F711F4B003AC3C8 /* ZYSoundWaverViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202074EA1F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewUITests" */;
+			buildPhases = (
+				202074D71F711F4B003AC3C8 /* Sources */,
+				202074D81F711F4B003AC3C8 /* Frameworks */,
+				202074D91F711F4B003AC3C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202074DD1F711F4B003AC3C8 /* PBXTargetDependency */,
+			);
+			name = ZYSoundWaverViewUITests;
+			productName = ZYSoundWaverViewUITests;
+			productReference = 202074DB1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202074AC1F711F4B003AC3C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "王智垚";
+				TargetAttributes = {
+					202074B31F711F4B003AC3C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+					};
+					202074CF1F711F4B003AC3C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 202074B31F711F4B003AC3C8;
+					};
+					202074DA1F711F4B003AC3C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M4C7ZCQAKU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 202074B31F711F4B003AC3C8;
+					};
+				};
+			};
+			buildConfigurationList = 202074AF1F711F4B003AC3C8 /* Build configuration list for PBXProject "ZYSoundWaverView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202074AB1F711F4B003AC3C8;
+			productRefGroup = 202074B51F711F4B003AC3C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202074B31F711F4B003AC3C8 /* ZYSoundWaverView */,
+				202074CF1F711F4B003AC3C8 /* ZYSoundWaverViewTests */,
+				202074DA1F711F4B003AC3C8 /* ZYSoundWaverViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202074B21F711F4B003AC3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202074CA1F711F4B003AC3C8 /* LaunchScreen.storyboard in Resources */,
+				202074C71F711F4B003AC3C8 /* Assets.xcassets in Resources */,
+				202074C21F711F4B003AC3C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074CE1F711F4B003AC3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074D91F711F4B003AC3C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202074B01F711F4B003AC3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202074BF1F711F4B003AC3C8 /* ViewController.m in Sources */,
+				202074C51F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld in Sources */,
+				202074BC1F711F4B003AC3C8 /* AppDelegate.m in Sources */,
+				202074B91F711F4B003AC3C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074CC1F711F4B003AC3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202074D51F711F4B003AC3C8 /* ZYSoundWaverViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202074D71F711F4B003AC3C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202074E01F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202074D21F711F4B003AC3C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202074B31F711F4B003AC3C8 /* ZYSoundWaverView */;
+			targetProxy = 202074D11F711F4B003AC3C8 /* PBXContainerItemProxy */;
+		};
+		202074DD1F711F4B003AC3C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202074B31F711F4B003AC3C8 /* ZYSoundWaverView */;
+			targetProxy = 202074DC1F711F4B003AC3C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202074C01F711F4B003AC3C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202074C11F711F4B003AC3C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		202074C81F711F4B003AC3C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202074C91F711F4B003AC3C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202074E21F711F4B003AC3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		202074E31F711F4B003AC3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202074E51F711F4B003AC3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		202074E61F711F4B003AC3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		202074E81F711F4B003AC3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYSoundWaverView.app/ZYSoundWaverView";
+			};
+			name = Debug;
+		};
+		202074E91F711F4B003AC3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYSoundWaverView.app/ZYSoundWaverView";
+			};
+			name = Release;
+		};
+		202074EB1F711F4B003AC3C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYSoundWaverView;
+			};
+			name = Debug;
+		};
+		202074EC1F711F4B003AC3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				INFOPLIST_FILE = ZYSoundWaverViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYSoundWaverView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202074AF1F711F4B003AC3C8 /* Build configuration list for PBXProject "ZYSoundWaverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202074E21F711F4B003AC3C8 /* Debug */,
+				202074E31F711F4B003AC3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202074E41F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202074E51F711F4B003AC3C8 /* Debug */,
+				202074E61F711F4B003AC3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		202074E71F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202074E81F711F4B003AC3C8 /* Debug */,
+				202074E91F711F4B003AC3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		202074EA1F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202074EB1F711F4B003AC3C8 /* Debug */,
+				202074EC1F711F4B003AC3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		202074C31F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				202074C41F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodel */,
+			);
+			currentVersion = 202074C41F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodel */;
+			path = ZYSoundWaverView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 202074AC1F711F4B003AC3C8 /* Project object */;
+}
