@@ -16,6 +16,8 @@
 		202074CA1F711F4B003AC3C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202074C81F711F4B003AC3C8 /* LaunchScreen.storyboard */; };
 		202074D51F711F4B003AC3C8 /* ZYSoundWaverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074D41F711F4B003AC3C8 /* ZYSoundWaverViewTests.m */; };
 		202074E01F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074DF1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m */; };
+		202074EF1F711F79003AC3C8 /* CMAllMediaVoipWaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 202074EE1F711F79003AC3C8 /* CMAllMediaVoipWaverView.m */; };
+		202074F21F7120ED003AC3C8 /* soundwaver.gif in Resources */ = {isa = PBXBuildFile; fileRef = 202074F11F7120ED003AC3C8 /* soundwaver.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		202074DB1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYSoundWaverViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202074DF1F711F4B003AC3C8 /* ZYSoundWaverViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSoundWaverViewUITests.m; sourceTree = "<group>"; };
 		202074E11F711F4B003AC3C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202074ED1F711F79003AC3C8 /* CMAllMediaVoipWaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVoipWaverView.h; sourceTree = "<group>"; };
+		202074EE1F711F79003AC3C8 /* CMAllMediaVoipWaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVoipWaverView.m; sourceTree = "<group>"; };
+		202074F11F7120ED003AC3C8 /* soundwaver.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = soundwaver.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 		202074B61F711F4B003AC3C8 /* ZYSoundWaverView */ = {
 			isa = PBXGroup;
 			children = (
+				202074F01F7120ED003AC3C8 /* image */,
+				202074ED1F711F79003AC3C8 /* CMAllMediaVoipWaverView.h */,
+				202074EE1F711F79003AC3C8 /* CMAllMediaVoipWaverView.m */,
 				202074BA1F711F4B003AC3C8 /* AppDelegate.h */,
 				202074BB1F711F4B003AC3C8 /* AppDelegate.m */,
 				202074BD1F711F4B003AC3C8 /* ViewController.h */,
@@ -141,6 +149,14 @@
 				202074E11F711F4B003AC3C8 /* Info.plist */,
 			);
 			path = ZYSoundWaverViewUITests;
+			sourceTree = "<group>";
+		};
+		202074F01F7120ED003AC3C8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				202074F11F7120ED003AC3C8 /* soundwaver.gif */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +226,7 @@
 				TargetAttributes = {
 					202074B31F711F4B003AC3C8 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M4C7ZCQAKU;
+						DevelopmentTeam = CP7C8ZTRME;
 						ProvisioningStyle = Automatic;
 					};
 					202074CF1F711F4B003AC3C8 = {
@@ -252,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202074F21F7120ED003AC3C8 /* soundwaver.gif in Resources */,
 				202074CA1F711F4B003AC3C8 /* LaunchScreen.storyboard in Resources */,
 				202074C71F711F4B003AC3C8 /* Assets.xcassets in Resources */,
 				202074C21F711F4B003AC3C8 /* Main.storyboard in Resources */,
@@ -283,6 +300,7 @@
 				202074C51F711F4B003AC3C8 /* ZYSoundWaverView.xcdatamodeld in Sources */,
 				202074BC1F711F4B003AC3C8 /* AppDelegate.m in Sources */,
 				202074B91F711F4B003AC3C8 /* main.m in Sources */,
+				202074EF1F711F79003AC3C8 /* CMAllMediaVoipWaverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +451,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = CP7C8ZTRME;
 				INFOPLIST_FILE = ZYSoundWaverView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -445,10 +464,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = CP7C8ZTRME;
 				INFOPLIST_FILE = ZYSoundWaverView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www.ZYSoundWaverView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZYSoundWaver.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -522,6 +542,7 @@
 				202074E61F711F4B003AC3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202074E71F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +551,7 @@
 				202074E91F711F4B003AC3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		202074EA1F711F4B003AC3C8 /* Build configuration list for PBXNativeTarget "ZYSoundWaverViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +560,7 @@
 				202074EC1F711F4B003AC3C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
